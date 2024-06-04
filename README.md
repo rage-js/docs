@@ -1,7 +1,10 @@
 <br>
 
 <div align='center'>
-  <img src="img_for_docs/RAGE_DEFAULT_2.png" alt="logo" style="width:400px;"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./img_for_docs/RAGE_DEFAULT.png">
+    <img src="./img_for_docs/RAGE_BLACK.png" alt="RAGE">
+  </picture>
 </div>
 
 <br>
@@ -17,9 +20,9 @@
 RAGE is a data management approach that prioritizes a smooth and responsive user experience. It leverages local data storage to deliver information quickly, even in offline scenarios. This reduces reliance on network requests, resulting in faster loading times and lower data usage.
 
 <!-- 1. How it works?
-2. Tech stack
-3. More about the RAGE approach and the 3 methods (PAI, POU, NI)
-4. Mention the user to read contributing.md and code_of_conduct.md -->
+1. Tech stack
+2. More about the RAGE approach and the 3 methods (PAI, POU, NI)
+3. Mention the user to read contributing.md and code_of_conduct.md -->
 
 # Table of Contents 📃
 
