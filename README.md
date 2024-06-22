@@ -2,8 +2,8 @@
 
 <div align='center'>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./img_for_docs/RAGE_DEFAULT.png">
-    <img src="./img_for_docs/RAGE_BLACK.png" alt="RAGE">
+    <source media="(prefers-color-scheme: dark)" srcset="./img_for_docs/RAGE-default.png">
+    <img src="./img_for_docs/RAGE-default-dark.png" alt="RAGE">
   </picture>
 </div>
 
