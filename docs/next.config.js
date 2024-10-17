@@ -5,7 +5,7 @@ const nextConfig = {
   // Configure `pageExtensions` to include MDX files
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
 
-  trailingSlash: true,
+  output: "export",
 };
 
 module.exports = withMDX(nextConfig);
