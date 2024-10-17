@@ -10,7 +10,10 @@ export default function MdxLayout({ children }: { children: React.ReactNode }) {
     <div className="container">
       <Sidebar />
       <div className="main-content">
-        <Image src="/RAGE-default.png" width="377" height="110" alt="RAGE" />
+        <center>
+          <Image src="/RAGE-default.png" width="377" height="110" alt="RAGE" />
+        </center>
+
         <MDXProvider components={{ code: CodeBlock }}>{children}</MDXProvider>
       </div>
     </div>
