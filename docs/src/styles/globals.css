@@ -59,9 +59,9 @@ a {
   padding-left: 2rem;
 }
 
-.center-logo {
+/* .center-logo {
   margin: auto;
-}
+} */
 
 .sidebar {
   width: 329.15px;
@@ -89,6 +89,13 @@ a {
 
   .main-content {
     width: 100%; /* make the main content full width */
+    padding: 0px 0.5rem;
+    overflow-x: hidden;
+  }
+
+  .center-logo {
+    width: 265px;
+    height: 77px;
   }
 }
 
@@ -100,5 +107,11 @@ a {
 
   .main-content {
     width: 100%; /* make the main content full width */
+    padding: 0px 20px;
+  }
+
+  .center-logo {
+    width: 226px;
+    height: 66px;
   }
 }

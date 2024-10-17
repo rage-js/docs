@@ -16,6 +16,7 @@ export default function Home() {
             }}
           >
             <Image
+              className="center-logo"
               src="/RAGE-default.png"
               width="377"
               height="110"
