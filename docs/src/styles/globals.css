@@ -17,11 +17,6 @@ a {
   min-height: 100vh;
 }
 
-.center-logo {
-  width: 377px;
-  height: 110px;
-}
-
 .link-btns {
   display: flex;
   flex-direction: column;

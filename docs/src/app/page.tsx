@@ -1,7 +1,6 @@
 import Sidebar from "@/components/sidebar";
-import CenterLogo from "@/assets/RAGE-default.png";
-import SubText from "@/assets/Subtext.svg";
 import Image from "next/image";
+import Subtext from "@/assets/Subtext.svg";
 
 export default function Home() {
   return (
@@ -9,8 +8,21 @@ export default function Home() {
       <div className="container">
         <Sidebar />
         <div className="main-content">
-          <Image className="center-logo" src={CenterLogo} alt="RAGE" />
-          <Image className="subtext" src={SubText} alt="RAGE-subtext" />
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <Image
+              src="/RAGE-default.png"
+              width="377"
+              height="110"
+              alt="RAGE"
+            />
+            <Image className="subtext" src={Subtext} alt="RAGE-subtext" />
+          </div>
         </div>
       </div>
     </body>
